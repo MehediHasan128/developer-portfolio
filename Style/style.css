@@ -125,19 +125,49 @@ ul button:hover{
     margin: 0 auto;
     text-align: center;
 }
-.about-title{
+.title{
     font-size: 35px;
     font-weight: 700px;
     color: #181818;
+    text-align: center;
 }
-.about-description{
+.description{
     font-size: 18px;
     color: #757575;
     margin: 30px 0px;
+    text-align: center;
 }
 #about-items{
     display: flex;
     justify-content: space-around;
+}
+#what-i-do{
+    width: 60%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.box{
+    width: 200px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 60px;
+    box-shadow: 5px 5px 20px rgb(219, 219, 219);
+}
+.box-title{
+    margin: 30px 0px 20px 0px;
+}
+.box-description{
+    color: #757575;
+    line-height: 28px;
+    font-size: 16px;
+    text-align: justify;
 }
 
 
