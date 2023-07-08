@@ -4,6 +4,16 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* Header section start */
+header{
+    background-color: antiquewhite;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: relative;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -37,4 +47,63 @@ ul button{
     font-weight: 500;
     color: white;
     border-radius: 5px;
+    transition: 0.4s;
 }
+ul button:hover{
+    background-color: #e26002;
+    cursor: pointer;
+}
+.developerImg{
+    position: absolute;
+    top: 0;
+    padding: 20px 30px;
+}
+#main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-content{
+    margin-left: 200px;
+    width: 600px;
+}
+.text-content h2{
+    font-size: 45px;
+}
+.text-content h1{
+    font-size: 85px;
+}
+.text-content p{
+    font-size: 18px;
+}
+.buttonGrp{
+    display: inline-flex;
+}
+.btn{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin: 20px 20px 0px 0px;
+   padding: 13px 20px;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: 600;
+   cursor: pointer;
+}
+.btn i{
+    margin-right: 10px;
+}
+.download{
+    background-color: #fd6e0a;
+    color: white;
+    border: none;
+}
+.contact{
+    border: 2px solid #fd6e0a;
+    background: transparent;
+    color: #fd6e0a;
+}
+ 
+
+
+
