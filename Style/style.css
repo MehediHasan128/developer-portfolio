@@ -172,7 +172,7 @@ ul button:hover{
 
 
 #resume-section{
-    margin: 130px 230px;
+    margin: 200px 230px;
 }
 .resume{
     display: flex;
@@ -232,3 +232,65 @@ hr{
 }
 
 
+/* footer section start */
+
+footer{
+    width: 100%;
+    background-color: #FFF8F3;
+}
+#footer-contant{
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 230px;
+}
+.connect-mes{
+    width: 600px;
+}
+#footer-contant h1{
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.connect-mes p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.social-icon{
+    display: flex;
+    align-items: center;
+}
+.social-icon img{
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.input_field{
+    width: 460px;
+    height: 60px;
+    padding: 0px 30px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.input_field:last-child{
+    height: 200px;
+    padding-top: 30px;
+}
+.submitBtn{
+    padding: 13px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #fd6e0a;
+    border: 2px solid #fd6e0a;
+    border-radius: 5px;
+    color: white;
+    transition: 0.4s;
+}
+.submitBtn:hover{
+    background: transparent;
+    color: #fd6e0a;
+}
